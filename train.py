@@ -59,12 +59,9 @@ training_args = TrainingArguments(
     per_device_train_batch_size=args.train_batch_size,     
     per_device_eval_batch_size=args.test_batch_size,      
     warmup_steps=args.warm_up,                   
-    weight_decay=args.weight_decay,                  
-    evaluation_strategy='steps',        
-    eval_steps=5000,
-    logging_steps=5000,                     
-    save_steps=5000,
-    load_best_model_at_end=True        
+    weight_decay=args.weight_decay,                        
+    logging_steps=1000,                     
+    save_steps=1000      
 )
 
 trainer = Trainer(
