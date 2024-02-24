@@ -35,5 +35,5 @@ python ./Text-sentiment-classification/train.py
 
 例子:
 ```
-python ./Text-sentiment-classification/train.py --epoch 3 --lr 2.4e-5 --model "roberta-large"
+python ./Text-sentiment-classification/train.py --epoch 5 --lr 3.2e-5 --model "bert-large-uncased"
 ```
