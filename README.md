@@ -17,7 +17,7 @@ pip install -r ./Text-sentiment-classification/requirements.txt
 ```
 
 ## Train
-To train the original SICK model execute the following command: 
+To train, execute the following command: 
 ```
 python ./Text-sentiment-classification/train.py 
 ```
