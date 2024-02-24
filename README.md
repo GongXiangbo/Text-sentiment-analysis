@@ -38,4 +38,11 @@ Example:
 ```
 python ./Text-sentiment-classification/train.py --epoch 5 --lr 3.2e-5 --model "bert-large-uncased"
 ```
+##Results
+
+| Model | Accuracy | F1 (Macro) |
+|----------|----------|----------|
+| RoBERTa-large | 88.28% | 88.01% |
+| Row 2 Col 1 | Row 2 Col 2 | Row 2 Col 3 |
+| Row 3 Col 1 | Row 3 Col 2 | Row 3 Col 3 |
 
