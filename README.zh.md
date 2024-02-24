@@ -5,7 +5,7 @@ Read in English: [Text sentiment classification](README.md)
 ## 设置
 克隆仓库：
 ```
-https://github.com/GongXiangbo/Text-sentiment-classification.git
+git clone https://github.com/GongXiangbo/Text-sentiment-classification.git
 ```
 运行命令：
 ```
