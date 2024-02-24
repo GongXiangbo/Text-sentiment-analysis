@@ -7,7 +7,7 @@ Read in English: [Text sentiment classification](README.md)
 ```
 https://github.com/GongXiangbo/Text-sentiment-classification.git
 ```
-运行一下命令：
+运行命令：
 ```
 pip install accelerate -U
 ```
