@@ -25,11 +25,11 @@ python ./Text-sentiment-classification/train.py
 ```
 You can set the following parameters:
 
-- epoch: default=5
-- lr：default=3.2e-5
-- train_batch_size: default=15
-- test_batch_size: default=2
-- warm_up: default=1000
+- epoch: default=3
+- lr：default=2.4e-5
+- train_batch_size: default=30
+- test_batch_size: default=5
+- warm_up: default=1500
 - weight_decay: default=1e-2
 - max_len: default=128
 - model: default="bert-large-uncased", it is also recommended to use "roberta-large" or "xlnet-large-cased"
