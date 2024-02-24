@@ -32,7 +32,7 @@ You can set the following parameters:
 - warm_up: default=1500
 - weight_decay: default=1e-2
 - max_len: default=128
-- model: default="bert-large-uncased", it is also recommended to use "roberta-large" or "xlnet-large-cased"
+- model: default="bert-large-uncased", it is also recommended to use "roberta-large"
 
 Example:
 ```
