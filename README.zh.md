@@ -1,1 +1,1 @@
-Read this in other languages: [English](README.md)
+*Read in English: [English](README.md)*
