@@ -61,9 +61,9 @@ training_args = TrainingArguments(
     warmup_steps=args.warm_up,                   
     weight_decay=args.weight_decay,                  
     evaluation_strategy='steps',        
-    eval_steps=12000,
-    logging_steps=12000,                     
-    save_steps=12000,
+    eval_steps=5000,
+    logging_steps=5000,                     
+    save_steps=5000,
     load_best_model_at_end=True        
 )
 
