@@ -21,8 +21,6 @@ To train the original SICK model execute the following command:
 ```
 python ./Text-sentiment-classification/train.py 
 ```
-During training, when it outputs ```wandb: Enter your choice:```, you can just enter 3.
-
 You can set the following parameters:
 
 - model_name: Specify either "facebook/bart-large-xsum" or "facebook/bart-large-cnn"
