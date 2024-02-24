@@ -5,7 +5,7 @@ This is a machine learning and deep learning practice project. In this project, 
 ## Setting
 Clone the repository:
 ```
-https://github.com/GongXiangbo/Text-sentiment-classification.git
+git clone https://github.com/GongXiangbo/Text-sentiment-classification.git
 ```
 Run the command:
 ```
