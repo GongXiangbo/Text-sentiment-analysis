@@ -16,3 +16,20 @@ Download the required packages
 pip install -r ./Text-sentiment-classification/requirements.txt
 ```
 
+## Train
+To train the original SICK model execute the following command: 
+```
+python ./Text-sentiment-classification/train.py 
+```
+During training, when it outputs ```wandb: Enter your choice:```, you can just enter 3.
+
+You can set the following parameters:
+
+- model_name: Specify either "facebook/bart-large-xsum" or "facebook/bart-large-cnn"
+- use_translate_emoticons：If True emoticons in the dataset will be translated into texts.
+- use_remove_emoticons: If True emoticons in the dataset will be removed.
+- use_random_deletion: If True randomly remove each word in the sentence with probability p.
+- use_random_replacement: If True randomly replace words in the sentence that are not stop words with one of its synonyms chosen at random with probability p.
+- p: The probability of random deletion or random replacement.
+
+
