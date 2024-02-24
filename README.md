@@ -5,7 +5,7 @@ This is a machine learning and deep learning practice project. In this project, 
 ## Setting
 Clone the repository:
 ```
-git clone https://github.com/GongXiangbo/Extended_SICK_Summarization.git
+https://github.com/GongXiangbo/Text-sentiment-classification.git
 ```
 Run the command:
 ```
@@ -13,6 +13,6 @@ pip install accelerate -U
 ```
 Download the required packages
 ```
-pip install -r ./Extended_SICK_Summarization/requirements.txt
+pip install -r ./Text-sentiment-classification/requirements.txt
 ```
 
