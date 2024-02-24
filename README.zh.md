@@ -2,6 +2,8 @@ Read in English: [Text sentiment classification](README.md)
 # 文本情感分析
 这是一个机器学习和深度学习实践项目。 在此项目中，你需要预测推特上给定内容的情绪。 简而言之，此任务中提供的情绪要么是积极的，要么是消极的。
 
+data文件夹中包含提供的csv格式的推文数据集，其中development.csv为训练集，其中包含150000条推文，test.csv为测试集，其中包括50000条推文。sentiment列代表推文的情感，1为积极类别，0为消极类别。
+
 ## 设置
 克隆仓库：
 ```
