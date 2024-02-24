@@ -31,7 +31,7 @@ python ./Text-sentiment-classification/train.py
 - warm_up: 默认为1500
 - weight_decay: 默认为1e-2
 - max_len: 默认为128
-- model: 默认为"bert-large-uncased", 也建议使用“roberta-large”或“xlnet-large-cased”
+- model: 默认为"bert-large-uncased", 也建议使用“roberta-large”
 
 例子:
 ```
