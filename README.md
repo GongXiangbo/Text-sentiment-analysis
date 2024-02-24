@@ -31,6 +31,7 @@ You can set the following parameters:
 - weight_decay: default=1e-2
 - max_len: default=128
 - model: default="bert-large-uncased", it is also recommended to use "roberta-large" or "xlnet-large-cased"
+
 Example:
 ```
 python ./Text-sentiment-classification/train.py --epoch 3 --lr 2.4e-5 --model "roberta-large"
