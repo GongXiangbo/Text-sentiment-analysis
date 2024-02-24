@@ -24,11 +24,11 @@ python ./Text-sentiment-classification/train.py
 ```
 你可以设置以下参数：
 
-- epoch: 默认为5
-- lr：默认为3.2e-5
+- epoch: 默认为3
+- lr：默认为2.4e-5
 - train_batch_size: 默认为30
-- test_batch_size: 默认为2
-- warm_up: 默认为1000
+- test_batch_size: 默认为5
+- warm_up: 默认为1500
 - weight_decay: 默认为1e-2
 - max_len: 默认为128
 - model: 默认为"bert-large-uncased", 也建议使用“roberta-large”或“xlnet-large-cased”
