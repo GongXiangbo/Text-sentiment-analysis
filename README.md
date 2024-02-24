@@ -2,6 +2,8 @@
 # Text-sentiment-classification
 This is a machine learning and deep learning practice project. In this project, you need to predict the sentiment of given content on Twitter. In short, the emotions provided in this task are either positive or negative.
 
+The folder "data" contains the provided tweet data set in csv format, where development.csv is the training set, which contains 150,000 tweets, and test.csv is the test set, which includes 50,000 tweets. The sentiment of the tweet is reported on the feature named sentiment and is equal to 1 for the Positive class and 0 for the Negative one.
+
 ## Setting
 Clone the repository:
 ```
