@@ -27,10 +27,10 @@ You can set the following parameters:
 - epoch: default=3
 - lr：default=2e-5
 - train_batch_size: default=15
-- test_batch_size: default=5
+- test_batch_size: default=1
 - warm_up: default=500
 - weight_decay: default=1e-2
-- max_len: default=128
+- max_len: default=64
 - model: default="bert-large-uncased", it is also recommended to use "roberta-large"
 
 Example:
