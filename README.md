@@ -26,7 +26,7 @@ python ./Text-sentiment-classification/train.py
 You can set the following parameters:
 
 - epoch: default=3
-- lr：default=2.4e-5
+- lr：default=3.2e-5
 - train_batch_size: default=30
 - test_batch_size: default=5
 - warm_up: default=500
