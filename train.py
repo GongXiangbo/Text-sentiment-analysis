@@ -12,11 +12,11 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--epoch', type=int, default=3)
 parser.add_argument('--lr', type=float, default=2e-5)
 parser.add_argument('--train_batch_size',type=int, default=15)
-parser.add_argument('--test_batch_size',type=int, default=5)
+parser.add_argument('--test_batch_size',type=int, default=1)
 parser.add_argument('--warm_up',type=int, default=500)
 parser.add_argument('--weight_decay',type=float, default=1e-2)
 # Tokenizer hyperparameters
-parser.add_argument('--max_len', type=int, default=128)
+parser.add_argument('--max_len', type=int, default=64)
 # Model hyperparameters
 parser.add_argument('--model',type=str, default='bert-large-uncased')
 args = parser.parse_args()
