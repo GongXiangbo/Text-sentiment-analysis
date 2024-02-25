@@ -1,4 +1,4 @@
-阅读中文版本: [文本情感分类](README.zh.md)
+Read in English: [Text sentiment classification](README.en.md)
 # 文本情感分析
 这是一个深度学习的实战项目。 在此项目中，你需要预测推特上给定内容的情绪。 简而言之，此任务中提供的情绪要么是积极的，要么是消极的。
 
