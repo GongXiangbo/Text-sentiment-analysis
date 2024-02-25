@@ -23,7 +23,7 @@ args = parser.parse_args()
 
 
 #load training set and preprocessing
-df_train = pd.read_csv("data/development.csv")
+df_train = pd.read_csv("data/train.csv")
 df_train['text'] = df_train['text'].apply(lambda text: process_text(text))
 #load test set and preprocessing
 df_test = pd.read_csv("data/test.csv")
