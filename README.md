@@ -27,10 +27,10 @@ python ./Text-sentiment-classification/train.py
 - epoch: 默认为3
 - lr：默认为2e-5
 - train_batch_size: 默认为15
-- test_batch_size: 默认为5
+- test_batch_size: 默认为1
 - warm_up: 默认为500
 - weight_decay: 默认为1e-2
-- max_len: 默认为128
+- max_len: 默认为64
 - model: 默认为"bert-large-uncased", 也建议使用“roberta-large”
 
 例子:
