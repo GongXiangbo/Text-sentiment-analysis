@@ -10,7 +10,7 @@ from dataset import TextDataset
 parser = argparse.ArgumentParser()
 # Training hyperparameters
 parser.add_argument('--epoch', type=int, default=3)
-parser.add_argument('--lr', type=float, default=2.4e-5)
+parser.add_argument('--lr', type=float, default=3.2e-5)
 parser.add_argument('--train_batch_size',type=int, default=30)
 parser.add_argument('--test_batch_size',type=int, default=5)
 parser.add_argument('--warm_up',type=int, default=500)
