@@ -26,7 +26,7 @@ python ./Text-sentiment-classification/train.py
 
 - epoch: 默认为3
 - lr：默认为3.2e-5
-- train_batch_size: 默认为30
+- train_batch_size: 默认为15
 - test_batch_size: 默认为5
 - warm_up: 默认为500
 - weight_decay: 默认为1e-2
