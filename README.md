@@ -40,5 +40,5 @@ python ./Text-sentiment-classification/train.py --epoch 5 --lr 3.2e-5 --model "b
 ## 实验结果
 | Model | Accuracy | F1 (Macro) |
 |----------|----------|----------|
-| RoBERTa-large | 88.28% | 88.01% |
+| bert-large-uncased | 85.46% | 85.09% |
 
