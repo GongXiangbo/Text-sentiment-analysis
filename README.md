@@ -25,7 +25,7 @@ python ./Text-sentiment-classification/train.py
 你可以设置以下参数：
 
 - epoch: 默认为3
-- lr：默认为3.2e-5
+- lr：默认为2e-5
 - train_batch_size: 默认为15
 - test_batch_size: 默认为5
 - warm_up: 默认为500
