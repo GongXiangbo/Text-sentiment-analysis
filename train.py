@@ -59,7 +59,8 @@ training_args = TrainingArguments(
     per_device_train_batch_size=args.train_batch_size,     
     per_device_eval_batch_size=args.test_batch_size,      
     warmup_steps=args.warm_up,                   
-    weight_decay=args.weight_decay,                        
+    weight_decay=args.weight_decay,
+    evaluation_strategy="epoch",
     logging_steps=1000,                     
     save_steps=1000      
 )
@@ -73,5 +74,3 @@ trainer = Trainer(
 )
 # Run Training (Finetuning)
 trainer.train()
-# Run Evaluating
-trainer.evaluate()
