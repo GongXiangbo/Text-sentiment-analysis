@@ -27,7 +27,7 @@ You can set the following parameters:
 - epoch: default=3
 - lr：default=1.2e-5
 - train_batch_size: default=16
-- test_batch_size: default=1
+- test_batch_size: default=4
 - warm_up: default=500
 - weight_decay: default=1e-2
 - max_len: default=128
